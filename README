@@ -1,0 +1,36 @@
+# Job Market Intelligence Tracker
+
+> 🚧 **Status: In progress** (started October 2026). Updated weekly.
+
+## Question
+What skills and tools do data science and AI internships ask for, and how does that vary by company, location, and pay?
+
+## Approach
+1. **Collect:** Pull internship postings from public job APIs (e.g., Adzuna)
+2. **Store and clean:** SQL database, deduplication, normalized fields
+3. **Extract:** Use an LLM to turn posting text into structured data (skills, tools, experience level)
+4. **Model:** Cluster roles by skill profile; predict salary ranges
+5. **Report:** Power BI dashboard and written findings
+
+## Tech Stack
+Python (pandas, scikit-learn, requests), SQL (SQLite), LLM API, Power BI
+
+## Roadmap
+- [x] Define research question and set up repo
+- [ ] Data collection script
+- [ ] Database design and cleaning
+- [ ] LLM skill extraction + accuracy check
+- [ ] Clustering and salary models
+- [ ] Dashboard and findings report
+
+## Data and Ethics
+Data comes from public APIs and follows each source's terms of service. No scraping of sites that prohibit it.
+
+## Findings
+*Coming soon.*
+
+## How to Run
+*Coming soon.*
+
+## Author
+[Your Name] | University of Miami, Data Science & AI | [LinkedIn link]
