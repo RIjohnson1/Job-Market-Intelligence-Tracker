@@ -1,0 +1,10 @@
+job-market-intelligence-tracker/
+├── data/
+│   ├── raw/          # untouched API responses
+│   └── processed/    # cleaned data
+├── notebooks/        # exploration and analysis
+├── src/              # collection, cleaning, LLM extraction scripts
+├── reports/          # findings and dashboard screenshots
+├── README.md
+├── requirements.txt
+└── .gitignore
